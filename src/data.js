@@ -103,6 +103,6 @@ export const Model3D = [
     id: 3,
     title: "Trash Token",
     img: "../assets/projectImg/3dmodel/TrashToken.png",
-    imgLink: "https://example.com/TrashToken.png"
+    imgLink: "https://example.com/Trashtoken.png"
   },
 ];
