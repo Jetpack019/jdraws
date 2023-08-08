@@ -10,7 +10,7 @@ function Education() {
       mystatus: 'College',
       title: 'Bachelor of Science in Computer Engineering',
       Institution: 'Bulacan State University',
-      description: 'I completed a comprehensive computer engineering education that covered various aspects of programming and specialized areas. In the first year, I gained proficiency in C++ coding. The second year focused on Python and Computer-Aided Design (CAD). In the third year, I learned mobile development, including Flutter and Dart. The fourth year covered embedded systems and web development using HTML, CSS, JavaScript, and web frameworks. This diverse education equipped me with a wide range of skills, allowing me to excel in different areas of computer engineering.',
+      description: 'I completed an extensive computer engineering education that encompassed a wide range of programming and specialized subjects. In the initial year, I acquired proficiency in C++ coding. The second year emphasized Python and VB.Net, along with the integration of MySQL and exposure to Computer-Aided Design (CAD). During the third year, I delved into mobile development utilizing Java within Android Studio, as well as exploring Flutter and Dart through VSCode. The fourth year encompassed embedded systems and web development, where I gained knowledge in HTML, CSS, JavaScript, Bootstrap, and web frameworks like ReactJS.',
       backgroundcolor: '#fff',
       date: 'June 19, 2023',
       image: '../../assets/aboutImg/education/cover1.png',
