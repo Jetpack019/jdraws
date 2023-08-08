@@ -18,10 +18,14 @@ function IntroAbout() {
                     <h3>SASS</h3>
                     <h3>BOOTSTRAP</h3>
                     <h3>DART</h3>
+                    <h3>VB.NET</h3>
+                    <h3>Python</h3>
+                    <h3>C++</h3>
+                     <h3>Java</h3>
                     <h3>SQL</h3>
                     <h3>FIGMA</h3>
                 </div>
-                <button>Contact Me</button>
+              
                 
             </div>
             <div className="right">
