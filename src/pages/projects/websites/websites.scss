@@ -73,8 +73,8 @@
                         flex-direction: column;
         
                         @include mobile{
-                            width:450px;
-                        height: 350px;
+                            width:400px;
+                            height: 350px;
                         }
                         img{
                             height:80%;
@@ -112,6 +112,12 @@
                     .title{
                         font-size: 0.8rem;
                         
+                        h1{
+                            @include mobile{
+                                margin-top: 15px;
+                                font-size: 1.2rem;
+                            }
+                        }
                         .work_title {
                             margin-top: 20px;
                             
@@ -125,7 +131,7 @@
                               margin-right: 10px;
                 
                               border-radius: 5px;
-                              background-color: #eee;
+                              background-color: white;
                               cursor: pointer;
                               &:hover {
                                 background-color:#292828;

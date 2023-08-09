@@ -12,7 +12,10 @@
     }
     .container-mobile{
       display: flex;
-
+      @include mobile{
+        display: flex;
+        flex-direction: column;
+      }
       .left{
         flex: 0.5;
         margin-top: 20px;
@@ -68,8 +71,6 @@
           font-size: 20px;
           margin: 0px 80px;
           
-
-
           @include mobile{
             text-align:center;
             margin: 0px 20px;
@@ -104,9 +105,14 @@
             grid-template-columns: repeat(2, 1fr);
             gap: 5px;
             overflow: hidden;
-  
+            img{
+                @include mobile{
+                  margin-top: 10px;
+              }
+            }
             @include mobile{
-              grid-template-columns: repeat(1, 1fr);
+              grid-template-columns: repeat(2, 1fr);
+              padding: 0 10px;
             }
     
               .slide-link{
@@ -121,6 +127,8 @@
                   font-size: 20px;
                   font-weight: 600;
                   color: black;
+                
+               
                   &:hover{
                       transform: scale(1.1);
                   }
